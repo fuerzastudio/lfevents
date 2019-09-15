@@ -11,13 +11,4 @@ body.admin-bar {
       margin-top: rem-calc(32);
     }
   }
-  // Offset mobile off-canvas menu
-  &.offcanvas {
-    .off-canvas.is-open {
-      top: rem-calc(46);
-      @include breakpoint(783) {
-        top: rem-calc(32);
-      }
-    }
-  }
 }
